@@ -1,12 +1,12 @@
 // app/page.tsx
 import { Metadata } from "next";
-import ClientHome from "./ClientHome";
+import ClientKontak from "./ClientKontak";
 
 export const metadata: Metadata = {
-  title: "Beranda | Beauty Store",
+  title: "Kontak | Beauty Store",
   description: "Landing page resmi Beauty Store.",
 };
 
 export default function Home() {
-  return <ClientHome />;
+  return <ClientKontak />;
 }
